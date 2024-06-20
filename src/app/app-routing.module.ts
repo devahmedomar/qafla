@@ -5,8 +5,8 @@ import { AboutComponent } from './sections/about/about.component';
 
 const routes: Routes = [
   {
-    path:'',
-    component:HomeComponent
+      path:'',
+      component:HomeComponent
   },
   {
     path:'about',

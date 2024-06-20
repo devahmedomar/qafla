@@ -10,6 +10,11 @@ import { NavbarComponent } from './sections/navbar/navbar.component';
 import { FooterComponent } from './sections/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Import BrowserAnimationsModule
 import { AccordionModule } from 'primeng/accordion';
+import { ArticlesComponent } from './sections/articles/articles.component';
+import { FormComponent } from './sections/form/form.component';
+import { StudentOpinionComponent } from './sections/student-opinion/student-opinion.component';
+import { TopRatedComponent } from './sections/top-rated/top-rated.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { AccordionModule } from 'primeng/accordion';
     AboutComponent,
     RoadmapsComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ArticlesComponent,
+    FormComponent,
+    StudentOpinionComponent,
+    TopRatedComponent,
+
   ],
   imports: [
     BrowserModule,
