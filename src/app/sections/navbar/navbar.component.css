@@ -1,0 +1,22 @@
+.navedit
+{
+  width: 92%  !important;
+}
+.navedit .navbar-nav
+{
+  width: 67%;
+  margin-right: 13% !important;
+  display: flex;
+  justify-content:space-around;
+  padding: 0px 8px;
+}
+.navedit .navbar-nav .nav-item a
+{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  padding-top: 0px ;
+  padding-bottom: 0px;
+  opacity: 40%;
+}
