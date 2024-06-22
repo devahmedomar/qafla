@@ -14,6 +14,10 @@ import { ArticlesComponent } from './sections/articles/articles.component';
 import { FormComponent } from './sections/form/form.component';
 import { StudentOpinionComponent } from './sections/student-opinion/student-opinion.component';
 import { TopRatedComponent } from './sections/top-rated/top-rated.component';
+import { HeaderComponent } from './sections/header/header.component';
+import { ArticleComponent } from './sections/article/article.component';
+import { FutureComponent } from './sections/future/future.component';
+import { TrainingLinesComponent } from './sections/training-lines/training-lines.component';
 
 
 @NgModule({
@@ -28,6 +32,10 @@ import { TopRatedComponent } from './sections/top-rated/top-rated.component';
     FormComponent,
     StudentOpinionComponent,
     TopRatedComponent,
+    HeaderComponent,
+    ArticleComponent,
+    FutureComponent,
+    TrainingLinesComponent,
 
   ],
   imports: [
