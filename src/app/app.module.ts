@@ -14,6 +14,7 @@ import { ArticlesComponent } from './sections/articles/articles.component';
 import { FormComponent } from './sections/form/form.component';
 import { StudentOpinionComponent } from './sections/student-opinion/student-opinion.component';
 import { TopRatedComponent } from './sections/top-rated/top-rated.component';
+import { SilderComponent } from './sections/silder/silder.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { TopRatedComponent } from './sections/top-rated/top-rated.component';
     FormComponent,
     StudentOpinionComponent,
     TopRatedComponent,
+    SilderComponent,
 
   ],
   imports: [
