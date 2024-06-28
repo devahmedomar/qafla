@@ -15,6 +15,13 @@ import { FormComponent } from './sections/form/form.component';
 import { StudentOpinionComponent } from './sections/student-opinion/student-opinion.component';
 import { TopRatedComponent } from './sections/top-rated/top-rated.component';
 import { SilderComponent } from './sections/silder/silder.component';
+import { ArticlesPageComponent } from './pages/articles-page/articles-page.component';
+import { ArticlesPagePreviewComponent } from './pages/articles-page-preview/articles-page-preview.component';
+import { UsagePolicyComponent } from './pages/usage-policy/usage-policy.component';
+import { TeamComponent } from './pages/team/team.component';
+import { LicensesComponent } from './pages/licenses/licenses.component';
+import { DocumentationComponent } from './pages/documentation/documentation.component';
+
 
 
 @NgModule({
@@ -30,6 +37,12 @@ import { SilderComponent } from './sections/silder/silder.component';
     StudentOpinionComponent,
     TopRatedComponent,
     SilderComponent,
+    ArticlesPageComponent,
+    ArticlesPagePreviewComponent,
+    UsagePolicyComponent,
+    TeamComponent,
+    LicensesComponent,
+    DocumentationComponent,
 
   ],
   imports: [
