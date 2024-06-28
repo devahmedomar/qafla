@@ -88,7 +88,7 @@ margin: 0 10px;
 
 }
 .points li {
-  padding: 10px;
+  padding: 5px;
   background-color: rgba(226, 236, 244, 1);
   width: 10px;
   height: 10px;
@@ -101,6 +101,6 @@ margin: 0 10px;
   height: 10px;
 }
 .trainer {
-  background-image: url(../../../assets/images/bg-vectore.png);
+  background-image: url(../../../assets/images/Vector55.png);
   background-position: center;
 }

@@ -18,8 +18,14 @@ import { HeaderComponent } from './sections/header/header.component';
 import { ArticleComponent } from './sections/article/article.component';
 import { FutureComponent } from './sections/future/future.component';
 import { TrainingLinesComponent } from './sections/training-lines/training-lines.component';
-
-
+import { SilderComponent } from './sections/silder/silder.component';
+import { JoinUsComponent } from './pages/join-us/join-us.component';
+import { FormsModule } from '@angular/forms';
+import { TrackComponent } from './pages/track/track.component';
+import { TrainerComponent } from './pages/trainer/trainer.component';
+import { CoursesComponent } from './pages/courses/courses.component';
+import { WeAreComponent } from './pages/we-are/we-are.component';
+import { JionUSasCompanyComponent } from './pages/jion-usas-company/jion-usas-company.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,13 +42,21 @@ import { TrainingLinesComponent } from './sections/training-lines/training-lines
     ArticleComponent,
     FutureComponent,
     TrainingLinesComponent,
+    SilderComponent,
+    JoinUsComponent,
+    TrackComponent,
+    TrainerComponent,
+    CoursesComponent,
+    WeAreComponent,
+    JionUSasCompanyComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AccordionModule
+    AccordionModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
