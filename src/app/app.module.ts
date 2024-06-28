@@ -14,6 +14,10 @@ import { ArticlesComponent } from './sections/articles/articles.component';
 import { FormComponent } from './sections/form/form.component';
 import { StudentOpinionComponent } from './sections/student-opinion/student-opinion.component';
 import { TopRatedComponent } from './sections/top-rated/top-rated.component';
+import { HeaderComponent } from './sections/header/header.component';
+import { ArticleComponent } from './sections/article/article.component';
+import { FutureComponent } from './sections/future/future.component';
+import { TrainingLinesComponent } from './sections/training-lines/training-lines.component';
 import { SilderComponent } from './sections/silder/silder.component';
 import { ArticlesPageComponent } from './pages/articles-page/articles-page.component';
 import { ArticlesPagePreviewComponent } from './pages/articles-page-preview/articles-page-preview.component';
@@ -21,9 +25,13 @@ import { UsagePolicyComponent } from './pages/usage-policy/usage-policy.componen
 import { TeamComponent } from './pages/team/team.component';
 import { LicensesComponent } from './pages/licenses/licenses.component';
 import { DocumentationComponent } from './pages/documentation/documentation.component';
-
-
-
+import { JoinUsComponent } from './pages/join-us/join-us.component';
+import { FormsModule } from '@angular/forms';
+import { TrackComponent } from './pages/track/track.component';
+import { TrainerComponent } from './pages/trainer/trainer.component';
+import { CoursesComponent } from './pages/courses/courses.component';
+import { WeAreComponent } from './pages/we-are/we-are.component';
+import { JionUSasCompanyComponent } from './pages/jion-usas-company/jion-usas-company.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +44,10 @@ import { DocumentationComponent } from './pages/documentation/documentation.comp
     FormComponent,
     StudentOpinionComponent,
     TopRatedComponent,
+    HeaderComponent,
+    ArticleComponent,
+    FutureComponent,
+    TrainingLinesComponent,
     SilderComponent,
     ArticlesPageComponent,
     ArticlesPagePreviewComponent,
@@ -43,13 +55,19 @@ import { DocumentationComponent } from './pages/documentation/documentation.comp
     TeamComponent,
     LicensesComponent,
     DocumentationComponent,
-
+    JoinUsComponent,
+    TrackComponent,
+    TrainerComponent,
+    CoursesComponent,
+    WeAreComponent,
+    JionUSasCompanyComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AccordionModule
+    AccordionModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
